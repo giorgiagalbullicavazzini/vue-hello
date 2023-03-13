@@ -6,7 +6,9 @@ const { createApp } = Vue;
 const vm = createApp({
     data() {
         return {
-            title: 'Titolo grande'
+            title: 'Welcome VueJS',
+            image: 'img/vue.jpg',
+            imageText: 'VueJS'
         };
     }
 }).mount('#app');
